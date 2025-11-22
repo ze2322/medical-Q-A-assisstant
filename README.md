@@ -36,54 +36,43 @@ CUDA-compatible GPU (8GB+ VRAM recommended)
 
 ## 🛠 Installation
 
-# 1️⃣ Clone the repository
+## 1️⃣ Clone the repository
 git clone https://github.com/yourusername/medical-qa-assistant.git
 cd medical-qa-assistant
 
-# 2️⃣ Create a virtual environment
+## 2️⃣ Create a virtual environment
 python -m venv venv
 source venv/bin/activate   # Linux/macOS
 venv\Scripts\activate      # Windows
 
-3️⃣ Install dependencies
+## 3️⃣ Install dependencies
 pip install -r requirements.txt
 
 ▶️ Usage
-
 Run the Streamlit app:
-
 streamlit run app.py
 
 
 The app will open at:
 http://localhost:8501
 
-🧠 Model Details
+## 🧠 Model Details
 
 Base Model: Meta LLaMA 3.1 8B
-
 Fine-tuning Method: LoRA
-
 Training Dataset: MedQuAD
-
 Quantization: 4-bit
 
-🔧 LoRA Configuration
-
+## 🔧 LoRA Configuration
 Rank (r): 8
-
 Alpha: 8
-
 Target Modules: q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj
 
-📄 License
-
+## 📄 License
 This project is for educational purposes only.
 
-🙏 Acknowledgments
+## 🙏 Acknowledgments
 
 Unsloth – efficient LoRA fine-tuning
-
 MedQuAD dataset
-
 Meta LLaMA – base model

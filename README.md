@@ -34,6 +34,6 @@ medical-qa-assistant/
 
 ## 📌 Requirements
 
-Python 3.9+
-CUDA-compatible GPU (8GB+ VRAM recommended)
-~10GB disk space for model + adapters
+Python 3.9+.
+CUDA-compatible GPU (8GB+ VRAM recommended).
+~10GB disk space for model + adapters.

@@ -17,3 +17,23 @@ Always consult a qualified healthcare professional for medical concerns.
 ---
 
 ## 📂 Project Structure  
+
+medical-qa-assistant/
+├── medical_assistant_lora/
+│ ├── adapter_config.json
+│ ├── adapter_model.safetensors
+│ ├── tokenizer.json
+│ ├── tokenizer.model
+│ ├── tokenizer_config.json
+│ └── special_tokens_map.json
+├── app.py
+├── requirements.txt
+└── README.md
+
+---
+
+## 📌 Requirements
+
+Python 3.9+
+CUDA-compatible GPU (8GB+ VRAM recommended)
+~10GB disk space for model + adapters
